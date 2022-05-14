@@ -34,7 +34,7 @@ static void thread_entry(void* parameter)
         {           
             rt_kprintf("thread %d is running ,thread %d count = %d\n", value , value , count);      
 
-            if(count > 200)
+            if(count > 201)
                 return;            
         }
          count++;
